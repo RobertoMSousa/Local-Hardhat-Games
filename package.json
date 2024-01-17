@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "deploy": "npx hardhat run ./scripts/deploy.js --network localhost",
+    "win": "npx hardhat run ./scripts/win.js --network localhost"
+  },
   "dependencies": {
     "hardhat": "^2.12.4"
   },
